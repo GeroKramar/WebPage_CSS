@@ -11,3 +11,94 @@
     /* max-width: 100%; */
     /* height: auto; */
 }
+#portfolio{
+    background-color: rgb(211, 99, 58);
+}
+.body-color{
+    background-color: rgb(11, 8, 7);
+}
+#footer1{
+    background-color: rgb(11, 8, 7);
+    color: aliceblue;
+    font-size: small;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+
+
+}
+.contact-info{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+#contacto{
+    background-color: rgb(211, 99, 58);
+    
+
+
+}
+
+.profile-name{
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+}
+#about-me{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    
+}
+.profile-profession{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    color: rgba(65, 63, 63, 0.863);
+}
+.profile-SKILLS{
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    color: rgba(72, 72, 72, 0.614);
+}
+.header-color{
+    background-color: rgb(227, 227, 227);
+}
+
+.section-color-aboutme{
+    background-color: rgb(227, 227, 227);
+}
+.container {
+    background-color: rgb(211, 99, 58);
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px; /* Espacio para separar los bordes de la sección de su contenido */
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.col {
+    flex: 1;
+    padding: 10px; /* Esto añade espacio alrededor de cada columna */
+}
+
+.estilo-imagen {
+    width: 100%;
+    border-radius: 10px; /* Bordes redondeados para las imágenes */
+    display: block;
+    margin: 0 auto; /* Esto centrará las imágenes si son más pequeñas que .col */
+}
+
+footer {
+    background-color: rgb(227, 227, 227);
+    padding: 0px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Times New Roman", Times, serif;
+}

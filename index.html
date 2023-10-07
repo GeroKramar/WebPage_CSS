@@ -13,53 +13,108 @@
 
 </head>
 
-<body>
+<body class="body-color">
 
     <!-- Barra de navegación -->
     <nav class="navbar navbar-dark bg-dark navbar navbar-expand-lg bg-light">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">Geronimo Kramar</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-              <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
-              <a class="nav-link" href="portfolio.html">Portfolio</a>
-              <a class="nav-link" href="about_me.html">Acerca de mí</a>
-              <a class="nav-link" href="contacto.html">Contacto</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                    <a class="nav-link" href="portfolio.html">Portfolio</a>
+                    <a class="nav-link" href="about_me.html">Acerca de mí</a>
+                    <a class="nav-link" href="contacto.html">Contacto</a>
+                </div>
             </div>
-          </div>
         </div>
-      </nav>
+    </nav>
     <!-- Encabezado con nombre y foto -->
-    <header>
-        <img  class="profile-image profile-image-center" src="images/WhatsApp Image 2022-11-25 at 11.40.44 AM.jpeg" alt="Foto perfil">
-        <h1>Geronimo Kramar</h1>
+    <header class="header-color">
+        <br>
+        <img class="profile-image profile-image-center" src="images/WhatsApp Image 2022-11-25 at 11.40.44 AM.jpeg"
+            alt="Foto perfil">
+        <h1 class="profile-name">Geronimo Kramar</h1>
+        <p class="profile-profession">Desarrollador Web</p>
+        <p class="profile-SKILLS">Java</p>
+        <p class="profile-SKILLS">JavaScript</p>
+        <p class="profile-SKILLS">MySQL</p>
+        <br>
+        
     </header>
-    
+
     <!-- Sección de Portfolio -->
     <section id="portfolio">
-        <h2>Portfolio</h2>
-        <!-- Aquí puedes incluir tus trabajos, imágenes, descripciones, etc. -->
+        <h2 class="profile-name">Portfolio</h2>
+ 
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <img src="/images/experiencia-programacion-persona-que-trabaja-codigos-computadora (1).jpg"
+                        alt="Imagen 1" class="estilo-imagen">
+                </div>
+                <div class="col">
+                    <img src="/images/experiencia-programacion-persona-que-trabaja-codigos-computadora.jpg"
+                        alt="Imagen 2" class="estilo-imagen">
+                </div>
+                <div class="col">
+                    <img src="/images/pick4.jpg" alt="Imagen 3" class="estilo-imagen">
+                </div>
+            </div>
+        </div>
+        <br><br><br>
     </section>
 
     <!-- Sección Acerca de mí -->
-    <section id="acerca-de-mi">
-        <h2>Acerca de mí</h2>
-        <p>Aquí escribe un poco sobre ti, tu experiencia, habilidades, etc.</p>
+    <section id="about-me" class="section-color-aboutme">
+        <h2>About Me</h2>
+        <hr>
+        <p class="lead">Soy un desarrollador junior apasionado porla tecnología y el desarrollo de software.Mi experiencia en el área de programaciónse centra principalmente en Java y Javascript, en los cuales he trabajado condiferentes frameworks y librerías paracrear aplicaciones web de alta calidad.
+        </p>
+        <p class="lead">Además de mi experiencia como desarrollador,también poseo conocimientos en testing QA, loque me ha permitido asegurar la calidad de losproyectos en los que he trabajado. Me considerouna persona organizada, metódica y detallista, loque me permite encontrar errores y problemastécnicos con facilidad.</p>
+        <br><br><br><br><br><br><br><br>
     </section>
 
     <!-- Sección de Contacto -->
     <section id="contacto">
-        <h2>Contacto</h2>
-        <!-- Aquí puedes incluir un formulario de contacto, tus redes sociales, etc. -->
+
+        <div class="container section-color-aboutme">
+            <h2 class="contact-info">Contacto</h2>
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Nombre</label>
+                <input type="text" class="form-control" id="exampleFormControlInput1">
+            </div>
+
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+            </div>
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Telefono</label>
+                <input type="number" class="form-control" id="exampleFormControlInput1">
+            </div>
+            <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                    placeholder="Vi su perfil y me gustaria contactar con usted.."></textarea>
+            </div>
+
+            <button type="button" class="btn btn-primary">Enviar</button>
+        </div>
+        <br><br><br>
+
     </section>
 
+
+
     <!-- Footer o pie de página -->
-    <footer>
-        <p>Tus datos personales: dirección, teléfono, correo, etc.</p>
-        <p>&copy; 2023 Tu Nombre - Todos los derechos reservados.</p>
+    <footer id="footer1">
+        <p>Datos: 1158018766, Gerokramar@gmail.com, Argenina .</p>
+        <p>&copy; 2023 Gero Kramar - Todos los derechos reservados.</p>
     </footer>
 
 </body>
